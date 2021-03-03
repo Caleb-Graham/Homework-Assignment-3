@@ -1,0 +1,8 @@
+C:\Users\jbateman\OneDrive - Missouri State University\ITC466 SP21\Demo Code\HomeworkCode_SP21\HW3EX1B4\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\jbateman\OneDrive - Missouri State University\ITC466 SP21\Demo Code\HomeworkCode_SP21\HW3EX1B4\obj\Debug\HW3EX1B4.csprojAssemblyReference.cache
+C:\Users\jbateman\OneDrive - Missouri State University\ITC466 SP21\Demo Code\HomeworkCode_SP21\HW3EX1B4\obj\Debug\HW3EX1B4.csproj.CoreCompileInputs.cache
+C:\Users\jbateman\OneDrive - Missouri State University\ITC466 SP21\Demo Code\HomeworkCode_SP21\HW3EX1B4\obj\Debug\HW3EX1B4.csproj.CopyComplete
+C:\Users\jbateman\OneDrive - Missouri State University\ITC466 SP21\Demo Code\HomeworkCode_SP21\HW3EX1B4\bin\Debug\HW3EX1B4.dll
+C:\Users\jbateman\OneDrive - Missouri State University\ITC466 SP21\Demo Code\HomeworkCode_SP21\HW3EX1B4\bin\Debug\HW3EX1B4.pdb
+C:\Users\jbateman\OneDrive - Missouri State University\ITC466 SP21\Demo Code\HomeworkCode_SP21\HW3EX1B4\obj\Debug\HW3EX1B4.dll
+C:\Users\jbateman\OneDrive - Missouri State University\ITC466 SP21\Demo Code\HomeworkCode_SP21\HW3EX1B4\obj\Debug\HW3EX1B4.pdb
