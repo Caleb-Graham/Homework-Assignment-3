@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Net.Mail;
 using HW3EX1B4.Services;
+using HW3EX1B4.Utility;
 
 namespace HW3EX1B4.Model
 {
@@ -10,31 +12,26 @@ namespace HW3EX1B4.Model
     // I need to reduce coupling. This method should not rely on the other modules if I can help it
     public class Order
     {
-        public void Checkout(Cart cart, PaymentDetails paymentDetails, bool notifyCustomer)
+        public virtual void Checkout(Cart cart, PaymentDetails paymentDetails, bool notifyCustomer)
         {
+
             if (paymentDetails.PaymentMethod == PaymentMethod.CreditCard)
             {
-                ChargeCard(paymentDetails, cart);
-            }
+                PaymentMethods.ChargeCard(paymentDetails, cart);
 
-            ReserveInventory(cart);
+                ReserveInventory(cart);
 
-            if(notifyCustomer)
-            {
-                NotifyCustomer(cart);
+                if (notifyCustomer)
+                {
+                    SendToCustomer.SendEmail(cart);
+                }
             }
         }
 
-        public void NotifyCustomer(Cart cart)
-        {
-            string customerEmail = cart.CustomerEmail;
-            OnlineOrderInformation.EmailNotification(customerEmail);
-          
-        }
 
         public void ReserveInventory(Cart cart)
         {
-            foreach(var item in cart.Items)
+            foreach (var item in cart.Items)
             {
                 try
                 {
@@ -50,34 +47,12 @@ namespace HW3EX1B4.Model
                 {
                     throw new OrderException("Problem reserving inventory", ex);
                 }
+
             }
+
         }
 
-        public void ChargeCard(PaymentDetails paymentDetails, Cart cart)
-        {
-            using (var paymentGateway = new PaymentGateway())
-            {
-                try
-                {
-                    paymentGateway.Credentials = "account credentials";
-                    paymentGateway.CardNumber = paymentDetails.CreditCardNumber;
-                    paymentGateway.ExpiresMonth = paymentDetails.ExpiresMonth;
-                    paymentGateway.ExpiresYear = paymentDetails.ExpiresYear;
-                    paymentGateway.NameOnCard = paymentDetails.CardholderName;
-                    paymentGateway.AmountToCharge = cart.TotalAmount;
 
-                    paymentGateway.Charge();
-                }
-                catch (AvsMismatchException ex)
-                {
-                    throw new OrderException("The card gateway rejected the card based on the address provided.", ex);
-                }
-                catch (Exception ex)
-                {
-                    throw new OrderException("There was a problem with your card.", ex);
-                }
-            }
-        }
     }
 }
 

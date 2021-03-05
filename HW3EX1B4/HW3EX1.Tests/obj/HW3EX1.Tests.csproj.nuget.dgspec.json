@@ -4,6 +4,16 @@
     "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj",
+        "projectName": "HW3EX1",
+        "projectPath": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
     "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +37,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj": {
+                "projectPath": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HW3EX1B4.Utility;
+using System;
 using System.Net.Mail;
-using HW3EX1B4.Utility;
 
 namespace HW3EX1B4.Model
 {
-    // Possibly a little broad. But for our purposes I think it suffices
-    // If this started to get lengthy you could divide it up into other classes
-    public class OnlineOrderInformation
+    public class SendToCustomer
     {
 
-        public static void EmailNotification(String customerEmail)
+        public static void SendEmail(Cart cart)
         {
+            string customerEmail = cart.CustomerEmail;
             if (!String.IsNullOrEmpty(customerEmail))
             {
                 using (var message = new MailMessage("orders@somewhere.com", customerEmail))
@@ -33,9 +28,21 @@ namespace HW3EX1B4.Model
                     }
                 }
 
-                return;
             }
         }
+
+        public void SendText()
+        {
+        }
+
+
+
+
+
+
+
+
+
 
 
 
