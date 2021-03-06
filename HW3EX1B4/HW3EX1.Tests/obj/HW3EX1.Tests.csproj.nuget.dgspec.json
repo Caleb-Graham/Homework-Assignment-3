@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj": {}
+    "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj": {
+    "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj",
+        "projectUniqueName": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj",
         "projectName": "HW3EX1",
-        "projectPath": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj"
+        "projectPath": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj"
       },
       "frameworks": {
         "net461": {}
       }
     },
-    "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj": {
+    "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj",
         "projectName": "HW3EX1.Tests",
-        "projectPath": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj",
-        "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\obj\\",
+        "projectPath": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\HW3EX1.Tests.csproj",
+        "packagesPath": "C:\\Users\\11cal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Caleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\11cal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -36,10 +36,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj": {
-                "projectPath": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj"
+              "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj": {
+                "projectPath": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HW3EX1B4\\HW3EX1.csproj"
               }
             }
           }
@@ -52,7 +51,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -86,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

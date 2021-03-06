@@ -5717,19 +5717,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Caleb\\.nuget\\packages\\": {}
+    "C:\\Users\\11cal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HWEX3\\HWEX3.csproj",
+      "projectUniqueName": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HWEX3\\HWEX3.csproj",
       "projectName": "HWEX3",
-      "projectPath": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HWEX3\\HWEX3.csproj",
-      "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caleb\\source\\repos\\Homework 3\\Homework-Assignment-3\\HWEX3\\obj\\",
+      "projectPath": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HWEX3\\HWEX3.csproj",
+      "packagesPath": "C:\\Users\\11cal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\11cal\\source\\repos\\Homework 3\\Homework-Assignment-3\\HWEX3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Caleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\11cal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5741,7 +5741,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5753,7 +5752,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -5787,7 +5785,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
