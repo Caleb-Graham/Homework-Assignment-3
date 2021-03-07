@@ -11,7 +11,7 @@ namespace HW3EX1B4.Services
         }
 
 
-        public static void CheckForInventory(Cart cart)
+        public static void ReserveInventory(Cart cart)
         {
             foreach (var item in cart.Items)
             {
@@ -19,8 +19,8 @@ namespace HW3EX1B4.Services
                 {
                     var inventorySystem = new InventorySystem();
                     inventorySystem.Reserve(item.Sku, item.Quantity);
-
                 }
+
                 catch (InsufficientInventoryException ex)
                 {
                     throw new OrderException("Insufficient inventory for item " + item.Sku, ex);
@@ -29,6 +29,8 @@ namespace HW3EX1B4.Services
                 {
                     throw new OrderException("Problem reserving inventory", ex);
                 }
+
+                
 
             }
         }

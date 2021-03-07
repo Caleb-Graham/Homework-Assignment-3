@@ -1,0 +1,8 @@
+C:\Users\11cal\source\repos\Homework 3\Homework-Assignment-3\HW3EX1B4\bin\Debug\HW3EX1B4.dll
+C:\Users\11cal\source\repos\Homework 3\Homework-Assignment-3\HW3EX1B4\bin\Debug\HW3EX1B4.pdb
+C:\Users\11cal\source\repos\Homework 3\Homework-Assignment-3\HW3EX1B4\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\11cal\source\repos\Homework 3\Homework-Assignment-3\HW3EX1B4\obj\Debug\HW3EX1.csprojAssemblyReference.cache
+C:\Users\11cal\source\repos\Homework 3\Homework-Assignment-3\HW3EX1B4\obj\Debug\HW3EX1.csproj.CoreCompileInputs.cache
+C:\Users\11cal\source\repos\Homework 3\Homework-Assignment-3\HW3EX1B4\obj\Debug\HW3EX1.csproj.CopyComplete
+C:\Users\11cal\source\repos\Homework 3\Homework-Assignment-3\HW3EX1B4\obj\Debug\HW3EX1B4.dll
+C:\Users\11cal\source\repos\Homework 3\Homework-Assignment-3\HW3EX1B4\obj\Debug\HW3EX1B4.pdb
