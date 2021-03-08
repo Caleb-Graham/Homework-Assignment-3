@@ -13,7 +13,26 @@ namespace HW3EX1.Tests
     public class SRPTests
     {
 
+        #region Checkout Tests
 
+
+        [TestMethod]
+        public void CheckoutAreEqualTest()
+        {
+            var paymentDetails = new PaymentDetails();
+
+            paymentDetails.PaymentMethod = (PaymentMethod)1;  // Explicit Cast? I also just tried PaymentMethod.CreditCard but that didn't work either
+
+
+            Assert.AreSame(PaymentMethod.CreditCard, paymentDetails);
+
+        }
+
+
+
+
+
+        #endregion
 
         #region ChargeCard Tests
 
